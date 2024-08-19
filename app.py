@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Streamlit page configuration
-st.set_page_config(page_title="Content Summarizer from YT or Website", page_icon="📝")
+st.set_page_config(page_title="HuggingFace and Langchain Integration", page_icon="📝")
 
 # Function to extract transcript from YouTube
 def extract_transcript_details(youtube_video_url):
@@ -58,10 +58,11 @@ def generate_summary(content_text, prompt, api_key):
         return None
 
 # Streamlit user interface
-st.title("Content Summarizer")
+st.title("HuggingFace and Langchain Integration")
 
 # API Key input
-api_key = st.text_input("Enter your Google API Key:", type="password")
+# api_key = st.text_input("Enter your Google API Key:", type="password")
+api_key = st.text_input("Enter your HF token:", type="password")
 
 # Option to choose between YouTube and Website
 option = st.selectbox("Choose content type:", ["YouTube Video", "Website"])

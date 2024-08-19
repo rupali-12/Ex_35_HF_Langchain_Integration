@@ -6,4 +6,4 @@
 
 # Deployed Link
 
-[DEPLOYED_LINK]()
+[DEPLOYED_LINK](https://ex35hflangchainintegration-g7txhjhyotxqfcie8fn9cq.streamlit.app/)
